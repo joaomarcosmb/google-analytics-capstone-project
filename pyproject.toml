@@ -1,0 +1,29 @@
+[project]
+name = "google-analytics-capstone-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Joao Barroso", email = "joao.barroso@alu.ufc.br" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "altair>=6.3.0",
+    "matplotlib>=3.11.2",
+    "nbformat>=5.11.1",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "plotly>=7.1.0",
+    "polars>=2.1.0",
+    "polars-reverse-geocode>=0.8.1",
+    "pyarrow>=26.0.0",
+    "ruff>=0.17.3",
+    "vl-convert-python>=1.9.0.post1",
+]
+
+[project.scripts]
+google-analytics-capstone-project = "google_analytics_capstone_project:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
