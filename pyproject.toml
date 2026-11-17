@@ -9,6 +9,8 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "altair>=6.3.0",
+    "ipykernel>=7.4.0",
+    "kaleido>=1.5.0",
     "matplotlib>=3.11.2",
     "nbformat>=5.11.1",
     "numpy>=2.5.4",
@@ -18,7 +20,11 @@ dependencies = [
     "polars-reverse-geocode>=0.8.1",
     "pyarrow>=26.0.0",
     "ruff>=0.17.3",
+    "scikit-learn>=1.9.1",
+    "shap>=0.54.1",
+    "tensorflow>=2.21.0",
     "vl-convert-python>=1.9.0.post1",
+    "xgboost>=3.4.1",
 ]
 
 [project.scripts]
